@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./dist/output.css">
+  
+  <title>Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body style="background-image: url(./images/bg-intro-desktop.png);" class="bg-red-400">
+
+  <div class="">
+
+    <div class="grid md:grid-cols-2 md:my-14 md:mx-32 my-12">
+
+      <!-- left -->
+      <div class="flex justify-center items-center text-center md:text-left">
+        <div class="p-10 mx-auto">
+          <h1 class="text-white md:text-left text-center font-sans text-4xl md:w-72 leading-[38px]">
+            Learn to code by watching others
+          </h1>
+          <p class="text-slate-300 mt-8">
+            See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+            but understanding how developers think is invaluable. 
+          </p>
+        </div>
+      </div>
+
+      <!-- right -->
+      <div class="mx-auto">
+        <button class=" bg-blue-800 text-white rounded-lg px-16 py-3 shadow-lg shadow-red-900">
+          Try it free 7 days 
+          <span class="text-slate-300 text-sm">then $20/mo. thereafter</span>
+        </button>
+
+        <div class="p-7 space-y-6 border-2 mt-6 bg-white rounded-md font-sans flex flex-col items-center justify-center">
+          <div class="">
+            <input type="text" placeholder="Fast Name" required class="border-2 border-blue-800 py-2 px-16 rounded-lg outline-none">
+          </div>
+          <div class="">
+            <input type="text" placeholder="Last Name" required class="border-2 border-blue-800 py-2 px-16 rounded-lg outline-none">
+          </div><div class="">
+            <input type="email" placeholder="Your Email" required class="border-2 border-blue-800 py-2 px-16 rounded-lg outline-none">
+          </div><div class="">
+            <input type="password" placeholder="Your Password" required class="border-2 border-blue-800 py-2 px-16 rounded-lg outline-none">
+          </div>
+          <button class="bg-green-800 hover:bg-green-400 text-white rounded-lg px-[90px] py-3 text-sm uppercase">
+            Claim your free trial 
+          </button>
+          <h3 class="text-[10px] text-slate-300">
+            By clicking the button, you are agreeing to our
+          <span class="text-red-600">Terms and Services</span>
+          </h3>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Learn to code by watching others
+
+  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable. 
+
+  Try it free 7 days then $20/mo. thereafter
+
+  First Name 
+  Last Name 
+  Email Address
+  Password
+
+  Claim your free trial 
+
+  By clicking the button, you are agreeing to our Terms and Services
+   -->
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Wai Yan Hein</a>.
+    </p>
+  </footer>
+</body>
+</html>
